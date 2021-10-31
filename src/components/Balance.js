@@ -17,6 +17,7 @@ function moneyFormatter(num) {
   );
 }
 
+
 export const Balance = () => {
   const { transactions } = useContext(GlobalContext);
 
@@ -27,6 +28,7 @@ export const Balance = () => {
   return (
     <>
       <h4>Your Balance</h4>
+      <button>Click Me</button>
     <h1>{moneyFormatter(total)}</h1>
     </>
   )
